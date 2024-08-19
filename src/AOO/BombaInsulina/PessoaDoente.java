@@ -36,7 +36,7 @@ public class PessoaDoente extends Controlador {
             System.out.println("Qual nível da diabete: ");
             resposta = leitor.nextInt();
 
-            if (resposta < 1 || resposta > 3) {
+            if (resposta < 1 || resposta > 3) { // exceção para caso o valor inserido não seja válido
 
                 throw new IllegalArgumentException("Argumento ilegal, não pode ser 0 ou maior que 3.");
 
