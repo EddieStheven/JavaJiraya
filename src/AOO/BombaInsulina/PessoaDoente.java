@@ -19,9 +19,9 @@ public class PessoaDoente extends Controlador {
     }
 
     public void imprime(){ // Vai imprimir as informações do Cadastrado
-        System.out.println("Nivél do açucar: " + this.getNivelAcucar());
         System.out.println("Nome: " +this.getNome());
         System.out.println("Idade: " +this.getIdade());
+        System.out.println("Nivél do açucar: " + this.getNivelAcucar());
         System.out.println("Tem Diabetes: " +this.getTipoDiabete());
         NivelDiabete();
     }
@@ -35,8 +35,14 @@ public class PessoaDoente extends Controlador {
             Scanner leitor = new Scanner(System.in);
             System.out.println("Qual nível da diabete: ");
             resposta = leitor.nextInt();
-            System.out.println("Confirmado o nível " +resposta+ " de Diabete!");
 
+            if (resposta < 1 || resposta > 3) {
+
+                throw new IllegalArgumentException("Argumento ilegal, não pode ser 0 ou maior que 3.");
+
+            }
+
+            System.out.println("Confirmado o nível " +resposta+ " de Diabete!");
 
         } else {// Se for falso vai imprimir um sout
 
