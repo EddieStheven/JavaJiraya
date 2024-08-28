@@ -1,4 +1,4 @@
-package Exception.exception.teste;
+package Exception.Treino.exception.teste;
 
 import java.io.File;
 import java.io.IOException;

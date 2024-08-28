@@ -1,4 +1,4 @@
-package Exception.runtime;
+package Exception.Treino.runtime.exception;
 
 public class RuntimeExceptionTest02 {
     public static void main(String[] args) {

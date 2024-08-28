@@ -1,4 +1,4 @@
-package Exception.exception.dominio;
+package Exception.Treino.exception.dominio;
 
 import java.io.Closeable;
 import java.io.IOException;

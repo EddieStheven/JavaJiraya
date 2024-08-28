@@ -1,23 +1,23 @@
-package Exception.runtime;
+package Exception.Treino.runtime.exception;
 
-import Exception.exception.dominio.Leitor1;
-import Exception.exception.dominio.Leitor2;
+import Exception.Treino.exception.dominio.Leitor1;
+import Exception.Treino.exception.dominio.Leitor2;
 
 import java.io.*;
 
 public class TryWithResourcesTest01 {
     public static void main(String[] args) {
-      lerArquivo();
+        lerArquivo();
 
     }
 
-    public static void lerArquivo(){
+    public static void lerArquivo() {
 
-        try(Leitor1 leitor1 = new Leitor1();
-            Leitor2 leitor2 = new Leitor2()){
+        try (Leitor1 leitor1 = new Leitor1();
+             Leitor2 leitor2 = new Leitor2()) {
 
-        } catch (IOException e){
-
+        } catch (IOException e) {
+            e.printStackTrace();
         }
 
     }
@@ -37,7 +37,6 @@ public class TryWithResourcesTest01 {
                 exception.printStackTrace();
             }
         }
-
 
     }
 

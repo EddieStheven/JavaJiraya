@@ -1,11 +1,11 @@
-package Exception.runtime;
+package Exception.Treino.runtime.exception;
 
 public class RuntimeExceptionTest01 {
 
     public static void main(String[] args) {
 
-        System.out.println(divisao(10,2));
-        System.out.println(divisao1(1,0));
+        System.out.println(divisao(10,0));
+        System.out.println(divisao1(1,4));
 
     }
 
@@ -17,6 +17,7 @@ public class RuntimeExceptionTest01 {
         }catch (ArithmeticException e){
             e.printStackTrace();
         }
+
 
         return 0;
     }
