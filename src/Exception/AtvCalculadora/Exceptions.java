@@ -1,4 +1,4 @@
-package Exception.Atividades.Calculadora;
+package Exception.AtvCalculadora;
 
 public class Exceptions {
 
@@ -19,10 +19,5 @@ public class Exceptions {
         System.out.println("Erro inesperado: " + e.getMessage());
 
     }
-
-
-
-
-
 
 }

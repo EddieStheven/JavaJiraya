@@ -1,4 +1,4 @@
-package Exception.Atividades.Calculadora;
+package Exception.AtvCalculadora;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

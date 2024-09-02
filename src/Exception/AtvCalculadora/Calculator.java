@@ -1,4 +1,4 @@
-package Exception.Atividades.Calculadora;
+package Exception.AtvCalculadora;
 
 public class Calculator {
 
