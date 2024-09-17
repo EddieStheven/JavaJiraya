@@ -1,6 +1,6 @@
 # Repositório de Códigos Java - Aprendizado em Java
 
-Este repositório contém os códigos Java que desenvolvi durante meu aprendizado da linguagem, com foco em conceitos fundamentais e boas práticas, incluindo **Programação Orientada a Objetos (POO)** e outras áreas do Java.
+Este repositório contém os códigos Java que desenvolvi durante meu aprendizado da linguagem, com foco em conceitos fundamentais e boas práticas, incluindo **Programação Orientada a Objetos (POO)** e outras áreas do Java, a exemplo de Lambdas, THEREADS, Streams, Microservice, desenvolvimento de API's e etc..
 
 ## Conteúdos de Estudo
 
