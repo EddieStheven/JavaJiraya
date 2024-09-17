@@ -1,0 +1,62 @@
+package javacore.ONE.ScreenMatch2;/* package Treinamento.Java.Insano.javacore.ONE.ScreenMatch2;
+
+import com.google.gson.FieldNamingPolicy;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.FieldNamingPolicy;
+
+
+import java.io.IOException;
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.util.Scanner;
+
+public class Start {
+    public static void main(DevDojo.String[] args) throws IOException, InterruptedException {
+
+        // Para buscar o filme
+        Scanner leitura = new Scanner(System.in);
+        System.out.println("Digite um filme para buscar: ");
+        DevDojo.String busca = leitura.nextLine();
+
+        DevDojo.String endereço = "https://www.omdbapi.com/?t=" + busca + "&apikey=bafdfbcf";
+        try {
+        // API Screen Match
+        HttpClient client = HttpClient.newHttpClient();
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create(endereço))
+                .build();
+
+        HttpResponse<DevDojo.String> response = client
+                .send(request, HttpResponse.BodyHandlers.ofString());
+
+        DevDojo.String json = response.body();
+        System.out.println(json);
+
+        Gson gson = new GsonBuilder()
+                .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
+                .create();
+
+        TituloOmdb meuTituloOmdb = gson.fromJson(json, TituloOmdb.class);
+        System.out.println(meuTituloOmdb);
+
+            Titulo meuTitulo = new Titulo(meuTituloOmdb);
+            System.out.println(meuTitulo);
+        } catch (NumberFormatException e) {
+            System.out.println("Aconteceu um erro: ");
+            System.out.println(e.getMessage());
+        } catch (IllegalArgumentException e){
+            System.out.println("Erro de Argumento.");
+        }
+
+        System.out.println("Programa finalizou corretamente!");
+
+
+
+    }
+
+
+}
+ */
