@@ -1,4 +1,4 @@
-package javacore.ONE.JogoDaAdvinhação;
+package Outros.ONE.JogoDaAdvinhação;
 
 import java.util.Random;
 import java.util.Scanner;

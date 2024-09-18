@@ -1,4 +1,4 @@
-package javacore.DevDojo.Amigos;
+package DevDojo.Desafios.Amigos;
 
 public class Amigos {
     public String nome;

@@ -1,4 +1,4 @@
-package DevDojo.Exception.Treino.exception.dominio;
+package DevDojo.MaratonaJava.Exception.Treino.exception.dominio;
 
 import java.io.FileNotFoundException;
 

@@ -1,4 +1,4 @@
-package javacore.ONE.ScreenMatch;/* package Treinamento.Java.Insano.javacore.ONE.ScreenMatch;
+package Outros.ONE.ScreenMatch;/* package Treinamento.Java.Insano.javacore.ONE.ScreenMatch;
 
 import java.io.IOException;
 import java.net.URI;
@@ -8,7 +8,7 @@ import java.net.http.HttpResponse;
 import java.util.Scanner;
 
 public class Start {
-    public static void main(DevDojo.String[] args) throws IOException, InterruptedException {
+    public static void main(DevDojo.MaratonaJava.String[] args) throws IOException, InterruptedException {
 
         //Objetos ( ScreenMatch ) instanciados
         ScreenMatch Filme = new ScreenMatch("Shrek", "Andrew Adamson", 2001, 10.0F, true);

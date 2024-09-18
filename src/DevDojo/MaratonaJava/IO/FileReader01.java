@@ -1,4 +1,4 @@
-package DevDojo.IO;
+package DevDojo.MaratonaJava.IO;
 
 import java.io.File;
 import java.io.FileReader;

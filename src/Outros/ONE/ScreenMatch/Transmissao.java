@@ -1,4 +1,4 @@
-package javacore.ONE.ScreenMatch;
+package Outros.ONE.ScreenMatch;
 
 public class Transmissao {
     private String nome;

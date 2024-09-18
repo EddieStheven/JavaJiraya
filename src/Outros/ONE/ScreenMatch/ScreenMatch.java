@@ -1,15 +1,15 @@
-package javacore.ONE.ScreenMatch;/*package Treinamento.Java.Insano.javacore.ONE.ScreenMatch;
+package Outros.ONE.ScreenMatch;/*package Treinamento.Java.Insano.javacore.ONE.ScreenMatch;
 
 public class ScreenMatch { // Atributos dos filmes
-    private DevDojo.String NomeFilme;
-    private DevDojo.String diretorFilme;
+    private DevDojo.MaratonaJava.String NomeFilme;
+    private DevDojo.MaratonaJava.String diretorFilme;
     private int ano = 2000;
     private float notaFilme;
     private boolean plano;
     private Transmissao transmissao;
 
     // Método Construtor
-    public ScreenMatch(DevDojo.String nomeFilme, DevDojo.String diretorFilme, int ano, float notaFilme, boolean plano) {
+    public ScreenMatch(DevDojo.MaratonaJava.String nomeFilme, DevDojo.MaratonaJava.String diretorFilme, int ano, float notaFilme, boolean plano) {
         this.setNomeFilme(nomeFilme);
         this.setDiretorFilme(diretorFilme);
         this.setAno(ano);
@@ -62,11 +62,11 @@ public class ScreenMatch { // Atributos dos filmes
     }
 
     // Encapsulamento dos atributos
-    public DevDojo.String getNomeFilme() {
+    public DevDojo.MaratonaJava.String getNomeFilme() {
         return NomeFilme;
     }
 
-    public void setNomeFilme(DevDojo.String nomeFilme) {
+    public void setNomeFilme(DevDojo.MaratonaJava.String nomeFilme) {
         NomeFilme = nomeFilme;
     }
 
@@ -86,11 +86,11 @@ public class ScreenMatch { // Atributos dos filmes
         this.notaFilme = notaFilme;
     }
 
-    public DevDojo.String getDiretorFilme() {
+    public DevDojo.MaratonaJava.String getDiretorFilme() {
         return diretorFilme;
     }
 
-    public void setDiretorFilme(DevDojo.String diretorFilme) {
+    public void setDiretorFilme(DevDojo.MaratonaJava.String diretorFilme) {
         this.diretorFilme = diretorFilme;
     }
 

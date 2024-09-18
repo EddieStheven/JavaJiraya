@@ -1,4 +1,4 @@
-package javacore.Gafanhoto.Back;
+package Outros.Gafanhoto.Back;
 
 public class Lutador extends Pessoa implements Comandos {
 

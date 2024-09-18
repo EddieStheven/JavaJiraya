@@ -1,7 +1,7 @@
-package DevDojo.Exception.Treino.runtime.exception;
+package DevDojo.MaratonaJava.Exception.Treino.runtime.exception;
 
-import DevDojo.Exception.Treino.exception.dominio.Leitor1;
-import DevDojo.Exception.Treino.exception.dominio.Leitor2;
+import DevDojo.MaratonaJava.Exception.Treino.exception.dominio.Leitor1;
+import DevDojo.MaratonaJava.Exception.Treino.exception.dominio.Leitor2;
 
 import java.io.*;
 

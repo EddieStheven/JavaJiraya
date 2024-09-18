@@ -1,4 +1,4 @@
-package javacore.DevDojo.ControleRemotoPOO;
+package DevDojo.Desafios.ControleRemotoPOO;
 
 public interface Controlador {
 

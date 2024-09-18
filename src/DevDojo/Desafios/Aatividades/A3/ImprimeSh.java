@@ -1,4 +1,4 @@
-package javacore.DevDojo.Aatividades.A3;
+package DevDojo.Desafios.Aatividades.A3;
 
 public class ImprimeSh {
     public static void main(String[] args) {

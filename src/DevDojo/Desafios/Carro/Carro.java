@@ -1,4 +1,4 @@
-package javacore.DevDojo.Carro;
+package DevDojo.Desafios.Carro;
 
 public class Carro {
     public String nome;

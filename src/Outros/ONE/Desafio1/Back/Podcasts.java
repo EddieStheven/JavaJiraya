@@ -1,4 +1,4 @@
-package javacore.ONE.Desafio1.Back;
+package Outros.ONE.Desafio1.Back;
 
 public class Podcasts extends Áudio {
 

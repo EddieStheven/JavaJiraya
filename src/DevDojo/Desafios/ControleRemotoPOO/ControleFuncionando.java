@@ -1,4 +1,4 @@
-package javacore.DevDojo.ControleRemotoPOO;
+package DevDojo.Desafios.ControleRemotoPOO;
 
 public class ControleFuncionando {
     public static void main(String[] args) {

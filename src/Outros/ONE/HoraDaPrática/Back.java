@@ -1,4 +1,4 @@
-package javacore.ONE.HoraDaPrática;
+package Outros.ONE.HoraDaPrática;
 
 import java.util.Scanner;
 

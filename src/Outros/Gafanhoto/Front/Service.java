@@ -2,7 +2,7 @@
 
 
 public class Service {
-    public static void main(DevDojo.String[] args) {
+    public static void main(DevDojo.MaratonaJava.String[] args) {
 
         Lutador lutador1 = new Lutador("Jiu-Jitsu",0,1,32,"BR","Anderson Silva",79,13);
         Lutador lutador2 = new Lutador("Boxe",0,0,28,"BR","Charles do Bronx",65,23);

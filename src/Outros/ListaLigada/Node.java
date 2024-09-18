@@ -1,4 +1,4 @@
-package javacore.ListaLigada;
+package Outros.ListaLigada;
 
 public class Node {
     private String valor;

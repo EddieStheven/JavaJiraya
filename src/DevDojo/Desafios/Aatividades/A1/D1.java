@@ -1,4 +1,4 @@
-package javacore.DevDojo.Aatividades.A1;
+package DevDojo.Desafios.Aatividades.A1;
 
 public class D1 {
     public static void main(String[] args) {

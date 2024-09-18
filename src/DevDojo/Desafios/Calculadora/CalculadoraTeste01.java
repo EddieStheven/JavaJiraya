@@ -1,4 +1,4 @@
-package javacore.DevDojo.Calculadora;
+package DevDojo.Desafios.Calculadora;
 
 public class CalculadoraTeste01 {
     public static void main(String[] args) {
