@@ -1,5 +1,6 @@
 package DevDojo.Desafios.ControleRemotoPOO;
 
+
 public class ControleFuncionando {
     public static void main(String[] args) {
         ControleRemoto c1 = new ControleRemoto(50,true,true);

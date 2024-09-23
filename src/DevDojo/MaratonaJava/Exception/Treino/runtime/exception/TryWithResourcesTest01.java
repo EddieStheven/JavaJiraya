@@ -1,5 +1,6 @@
 package DevDojo.MaratonaJava.Exception.Treino.runtime.exception;
 
+
 import DevDojo.MaratonaJava.Exception.Treino.exception.dominio.Leitor1;
 import DevDojo.MaratonaJava.Exception.Treino.exception.dominio.Leitor2;
 

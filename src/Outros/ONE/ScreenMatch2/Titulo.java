@@ -1,17 +1,14 @@
-package Outros.ONE.ScreenMatch2;/*package Treinamento.Java.Insano.javacore.ONE.ScreenMatch2;
-
-import com.google.gson.annotations.SerializedName;
+package Outros.ONE.ScreenMatch2;
 
 public class Titulo {
-    @SerializedName("Title")
-    private DevDojo.MaratonaJava.String NomeFilme;
-    private DevDojo.MaratonaJava.String diretorFilme;
-    @SerializedName("Year")
+
+    private String NomeFilme;
+    private String diretorFilme;
     private int anoDeLancamento;
     private float notaFilme;
     private boolean plano;
 
-    public Titulo(DevDojo.MaratonaJava.String nomeFilme, DevDojo.MaratonaJava.String diretorFilme, int anoDeLancamento, float notaFilme, boolean plano) {
+    public Titulo(String nomeFilme, String diretorFilme, int anoDeLancamento, float notaFilme, boolean plano) {
         NomeFilme = nomeFilme;
         this.diretorFilme = diretorFilme;
         this.anoDeLancamento = anoDeLancamento;
@@ -26,23 +23,23 @@ public class Titulo {
     }
 
     @Override
-    public DevDojo.MaratonaJava.String toString() {
+    public String toString() {
         return "Titulo{" +
                 "NomeFilme='" + NomeFilme + '\'' +
                 ", anoDeLancamento=" + anoDeLancamento +
                 '}';
     }
 
-    public DevDojo.MaratonaJava.String getNomeFilme() {
+    public String getNomeFilme() {
         return NomeFilme;
     }
-    public void setNomeFilme(DevDojo.MaratonaJava.String nomeFilme) {
+    public void setNomeFilme(String nomeFilme) {
         NomeFilme = nomeFilme;
     }
-    public DevDojo.MaratonaJava.String getDiretorFilme() {
+    public String getDiretorFilme() {
         return diretorFilme;
     }
-    public void setDiretorFilme(DevDojo.MaratonaJava.String diretorFilme) {
+    public void setDiretorFilme(String diretorFilme) {
         this.diretorFilme = diretorFilme;
     }
     public int getAnoDeLancamento() {
@@ -64,6 +61,3 @@ public class Titulo {
         this.plano = plano;
     }
 }
-
-
- */

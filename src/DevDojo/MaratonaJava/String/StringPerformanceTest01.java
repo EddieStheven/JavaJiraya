@@ -6,7 +6,7 @@ public class StringPerformanceTest01 {
         long inicio = System.currentTimeMillis(); //
        concatString(30000);
         long fim = System.currentTimeMillis();
-        System.out.println("Tempo gasto para DevDojo.MaratonaJava.String " + (fim - inicio) + "ms");
+        System.out.println("Tempo gasto para DevDojo.String " + (fim - inicio) + "ms");
 
         inicio = System.currentTimeMillis();
         concatStringBuilder(300000);

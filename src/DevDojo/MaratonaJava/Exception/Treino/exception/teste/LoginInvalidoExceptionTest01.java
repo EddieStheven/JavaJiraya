@@ -1,6 +1,5 @@
 package DevDojo.MaratonaJava.Exception.Treino.exception.teste;
 
-import DevDojo.MaratonaJava.Exception.Treino.exception.dominio.LoginInvalidoException;
 
 import java.util.Scanner;
 

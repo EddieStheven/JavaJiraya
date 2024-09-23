@@ -1,5 +1,6 @@
 package Outros.Gafanhoto.Back;
 
+
 public interface Comandos {
 
      // Comandos da interface na luta

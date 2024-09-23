@@ -1,4 +1,4 @@
-package Outros.ONE.Desafio1.Back;
+package Outros.ONE.Desfio1.Back;
 
 public class Service {
     private String nome;

@@ -1,11 +1,11 @@
-/*package javacore.ONE.Desafio1.test;
+package Outros.ONE.Desafio1.test;
 
-import Treinamento.Java.Insano.javacore.ONE.Desafio1.Back.Músicas;
-import Treinamento.Java.Insano.javacore.ONE.Desafio1.Back.Service;
-import Treinamento.Java.Insano.javacore.ONE.Desafio1.Back.Áudio;
+import Outros.ONE.Desafio1.Back.Músicas;
+import Outros.ONE.Desafio1.Back.Service;
+import Outros.ONE.Desafio1.Back.Áudio;
 
 public class teste1 {
-    public static void main(DevDojo.MaratonaJava.String[] args) {
+    public static void main(String[] args) {
         // Informações que vão ser imprimidas
         Músicas music = new Músicas("Triller","Michael Jackson","Pop");
         Músicas music2 = new Músicas("777","Joji","Pop");
@@ -37,4 +37,3 @@ public class teste1 {
 }
 
 
- */

@@ -1,3 +1,4 @@
+
 package DevDojo.MaratonaJava.Exception.Treino.exception.teste;
 
 import DevDojo.MaratonaJava.Exception.Treino.exception.dominio.Funcionario;

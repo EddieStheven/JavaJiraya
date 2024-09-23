@@ -1,15 +1,15 @@
-package Outros.ONE.ScreenMatch;/*package Treinamento.Java.Insano.javacore.ONE.ScreenMatch;
+package Outros.ONE.ScreenMatch;
 
 public class ScreenMatch { // Atributos dos filmes
-    private DevDojo.MaratonaJava.String NomeFilme;
-    private DevDojo.MaratonaJava.String diretorFilme;
+    private String NomeFilme;
+    private String diretorFilme;
     private int ano = 2000;
     private float notaFilme;
     private boolean plano;
     private Transmissao transmissao;
 
     // Método Construtor
-    public ScreenMatch(DevDojo.MaratonaJava.String nomeFilme, DevDojo.MaratonaJava.String diretorFilme, int ano, float notaFilme, boolean plano) {
+    public ScreenMatch(String nomeFilme, String diretorFilme, int ano, float notaFilme, boolean plano) {
         this.setNomeFilme(nomeFilme);
         this.setDiretorFilme(diretorFilme);
         this.setAno(ano);
@@ -17,6 +17,7 @@ public class ScreenMatch { // Atributos dos filmes
         this.setPlano(plano);
 
     }
+
 
     public void Transmissao() { // Método de transmissão
         if (transmissao != null) { // Se transmissão possuir algum nome, ele vai imprimir
@@ -62,11 +63,11 @@ public class ScreenMatch { // Atributos dos filmes
     }
 
     // Encapsulamento dos atributos
-    public DevDojo.MaratonaJava.String getNomeFilme() {
+    public String getNomeFilme() {
         return NomeFilme;
     }
 
-    public void setNomeFilme(DevDojo.MaratonaJava.String nomeFilme) {
+    public void setNomeFilme(String nomeFilme) {
         NomeFilme = nomeFilme;
     }
 
@@ -86,11 +87,11 @@ public class ScreenMatch { // Atributos dos filmes
         this.notaFilme = notaFilme;
     }
 
-    public DevDojo.MaratonaJava.String getDiretorFilme() {
+    public String getDiretorFilme() {
         return diretorFilme;
     }
 
-    public void setDiretorFilme(DevDojo.MaratonaJava.String diretorFilme) {
+    public void setDiretorFilme(String diretorFilme) {
         this.diretorFilme = diretorFilme;
     }
 
@@ -110,6 +111,3 @@ public class ScreenMatch { // Atributos dos filmes
         this.transmissao = transmissao;
     }
 }
-
-
- */

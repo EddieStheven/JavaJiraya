@@ -1,10 +1,4 @@
-package Outros.ONE.ScreenMatch2;/* package Treinamento.Java.Insano.javacore.ONE.ScreenMatch2;
-
-import com.google.gson.FieldNamingPolicy;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.FieldNamingPolicy;
-
+/*package Outros.ONE.ScreenMatch2;
 
 import java.io.IOException;
 import java.net.URI;
@@ -14,14 +8,14 @@ import java.net.http.HttpResponse;
 import java.util.Scanner;
 
 public class Start {
-    public static void main(DevDojo.MaratonaJava.String[] args) throws IOException, InterruptedException {
+    public static void main(String[] args) throws IOException, InterruptedException {
 
         // Para buscar o filme
         Scanner leitura = new Scanner(System.in);
         System.out.println("Digite um filme para buscar: ");
-        DevDojo.MaratonaJava.String busca = leitura.nextLine();
+        String busca = leitura.nextLine();
 
-        DevDojo.MaratonaJava.String endereço = "https://www.omdbapi.com/?t=" + busca + "&apikey=bafdfbcf";
+        String endereço = "https://www.omdbapi.com/?t=" + busca + "&apikey=bafdfbcf";
         try {
         // API Screen Match
         HttpClient client = HttpClient.newHttpClient();
@@ -29,10 +23,10 @@ public class Start {
                 .uri(URI.create(endereço))
                 .build();
 
-        HttpResponse<DevDojo.MaratonaJava.String> response = client
+        HttpResponse<String> response = client
                 .send(request, HttpResponse.BodyHandlers.ofString());
 
-        DevDojo.MaratonaJava.String json = response.body();
+        String json = response.body();
         System.out.println(json);
 
         Gson gson = new GsonBuilder()
@@ -59,4 +53,6 @@ public class Start {
 
 
 }
+
+
  */
