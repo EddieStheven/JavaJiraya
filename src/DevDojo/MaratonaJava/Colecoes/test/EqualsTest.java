@@ -2,7 +2,7 @@ package DevDojo.MaratonaJava.Colecoes.test;
 
 import DevDojo.MaratonaJava.Colecoes.dominio.Smartphone;
 
-public class Equals {
+public class EqualsTest {
     public static void main(String[] args) {
         Smartphone s1 = new Smartphone("1ABC1","Iphone");
         Smartphone s2 = s1;
