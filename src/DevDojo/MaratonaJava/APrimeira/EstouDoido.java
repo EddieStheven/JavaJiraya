@@ -1,4 +1,4 @@
-package javacore.DevDojo;
+package DevDojo.MaratonaJava.APrimeira;
 
 import java.util.Scanner;
 
@@ -6,6 +6,7 @@ public class EstouDoido {
     public static void main(String[] args) {
 
         int wage = 2000;
+        System.out.println("test");
         int date = 2024;
         var name = "Eddie Stheven";
         var address = "Salvador";
