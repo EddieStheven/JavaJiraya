@@ -1,4 +1,4 @@
-package javacore.DevDojo.Professor;
+package DevDojo.Desafios.Professor;
 
 public class Professor {
     public String nome;

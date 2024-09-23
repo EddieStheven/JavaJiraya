@@ -1,4 +1,4 @@
-package DevDojo.Regex;
+package DevDojo.MaratonaJava.Regex;
 
 import java.util.Scanner;
 

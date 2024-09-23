@@ -1,4 +1,4 @@
-package javacore.DevDojo.Aatividades.A2;
+package DevDojo.Desafios.Aatividades.A2;
 
 public class AzulCaneta {
     private String modelo;

@@ -1,4 +1,4 @@
-package javacore.ONE.Banco;
+package Outros.ONE.Banco;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package DevDojo.ResourceBundle;
+package DevDojo.MaratonaJava.ResourceBundle;
 
 import java.util.Locale;
 import java.util.ResourceBundle;

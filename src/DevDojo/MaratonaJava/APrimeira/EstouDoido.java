@@ -1,4 +1,4 @@
-package javacore.DevDojo;
+package DevDojo.MaratonaJava.APrimeira;
 
 import java.util.Scanner;
 
@@ -208,7 +208,7 @@ public class EstouDoido {
         int[] idade6 = new int[3];
         // byte, short, int, long, float e double 0
         // boolean false
-        // DevDojo.String = null
+        // DevDojo.MaratonaJava.String = null
         // Basicamente se vc usar essas variáveis e sem declarar o valor, elas vão ser iniciada dessa maneira, 0, false e etc..
         idade6[0] = 21;
         idade6[1] = 11;

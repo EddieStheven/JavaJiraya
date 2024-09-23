@@ -1,4 +1,4 @@
-package javacore.DevDojo.Estudante;
+package DevDojo.Desafios.Estudante;
 
 public class Estudante {
 

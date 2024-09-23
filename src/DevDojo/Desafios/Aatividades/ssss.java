@@ -1,4 +1,4 @@
-package javacore.DevDojo.Aatividades;
+package DevDojo.Desafios.Aatividades;
 
 public class ssss {
 }

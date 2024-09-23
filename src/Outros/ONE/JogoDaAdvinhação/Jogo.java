@@ -1,4 +1,4 @@
-package javacore.ONE.JogoDaAdvinhação;
+package Outros.ONE.JogoDaAdvinhação;
 
 public class Jogo {
     public static void main(String[] args) {

@@ -5,7 +5,7 @@ import Treinamento.Java.Insano.javacore.ONE.Desafio1.Back.Service;
 import Treinamento.Java.Insano.javacore.ONE.Desafio1.Back.Áudio;
 
 public class teste1 {
-    public static void main(DevDojo.String[] args) {
+    public static void main(DevDojo.MaratonaJava.String[] args) {
         // Informações que vão ser imprimidas
         Músicas music = new Músicas("Triller","Michael Jackson","Pop");
         Músicas music2 = new Músicas("777","Joji","Pop");

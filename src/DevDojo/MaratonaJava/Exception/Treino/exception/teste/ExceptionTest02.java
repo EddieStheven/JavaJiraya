@@ -1,4 +1,4 @@
-package DevDojo.Exception.Treino.exception.teste;
+package DevDojo.MaratonaJava.Exception.Treino.exception.teste;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package DevDojo.Exception.AtvCalculadora;
+package DevDojo.MaratonaJava.Exception.AtvCalculadora;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package DevDojo.Wrappers;
+package DevDojo.MaratonaJava.Wrappers;
 
 public class WrapperTest01 {
     public static void main(String[] args) {

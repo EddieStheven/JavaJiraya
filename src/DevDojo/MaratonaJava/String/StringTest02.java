@@ -1,4 +1,4 @@
-package DevDojo.String;
+package DevDojo.MaratonaJava.String;
 
 public class StringTest02 {
     public static void main(String[] args) {

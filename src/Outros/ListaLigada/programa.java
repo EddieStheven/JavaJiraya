@@ -1,4 +1,4 @@
-package javacore.ListaLigada;
+package Outros.ListaLigada;
 
 public class programa {
     public static void main(String[] args) {

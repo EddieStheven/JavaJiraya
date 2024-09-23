@@ -1,4 +1,4 @@
-package javacore.DevDojo.Calculadora;
+package DevDojo.Desafios.Calculadora;
 
 public class Calculadora {
   public void somaDoisNumeros(){

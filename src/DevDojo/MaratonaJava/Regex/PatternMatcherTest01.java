@@ -1,4 +1,4 @@
-package DevDojo.Regex;
+package DevDojo.MaratonaJava.Regex;
 
 import java.util.Arrays;
 import java.util.regex.Matcher;
@@ -22,7 +22,7 @@ public class PatternMatcherTest01 {
 
        */
 
-        // DevDojo.String regex = "a-zA-c";
+        // DevDojo.MaratonaJava.String regex = "a-zA-c";
         String regex = "([a-zA-Z0-9\\._-])+@([a-zA-z])+\\.([a-zA-z])+";
         String texto = "luffy@hotmail.com, 123jotaro@gmail.com, #@!zoro@mail.br, teste@gmail.com, sakura@mail.com";
         System.out.println("Email válido");

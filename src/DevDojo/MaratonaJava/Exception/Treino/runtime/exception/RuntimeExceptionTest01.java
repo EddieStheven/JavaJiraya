@@ -1,4 +1,4 @@
-package DevDojo.Exception.Treino.runtime.exception;
+package DevDojo.MaratonaJava.Exception.Treino.runtime.exception;
 
 public class RuntimeExceptionTest01 {
 

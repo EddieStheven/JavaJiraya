@@ -1,4 +1,4 @@
-package javacore.ONE.Banco;
+package Outros.ONE.Banco;
 
 public class Imprimir {
     public static void main(String[] args) {

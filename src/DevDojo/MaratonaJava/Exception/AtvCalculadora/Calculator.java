@@ -1,4 +1,4 @@
-package DevDojo.Exception.AtvCalculadora;
+package DevDojo.MaratonaJava.Exception.AtvCalculadora;
 
 public class Calculator {
 

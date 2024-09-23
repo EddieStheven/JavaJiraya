@@ -1,4 +1,4 @@
-package javacore.ONE.HoraDaPrática;
+package Outros.ONE.HoraDaPrática;
 
 public class Impressão {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package javacore.DevDojo.Aatividades.A3;
+package DevDojo.Desafios.Aatividades.A3;
 
 
 import java.util.Scanner;
