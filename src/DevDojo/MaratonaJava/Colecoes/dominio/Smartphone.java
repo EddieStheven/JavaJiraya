@@ -19,13 +19,17 @@ public class Smartphone {
     }
 
     @Override
+    public String toString() {
+        return "Smartphone{" +
+                "marca='" + marca + '\'' +
+                ", serialNumber='" + serialNumber + '\'' +
+                '}';
+    }
+
+    @Override
     public int hashCode() {
         return serialNumber == null ? 0 : this.serialNumber.hashCode();
     }
-
-
-
-
 
     public String getMarca() {
         return marca;

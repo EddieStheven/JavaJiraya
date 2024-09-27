@@ -13,7 +13,7 @@ public class ListTest
         nomes.add("Eddie Java");
         nomes.remove("William");
         nomes.add("Jack Chan");
-        nomes.remove(1);
+
 
         for(String nome : nomes){
             System.out.println(nome);
@@ -31,11 +31,6 @@ public class ListTest
 
         List<Integer> numeros = new ArrayList<>();
         numeros.add(1);
-
-
-
-
-
 
 
     }
