@@ -7,6 +7,7 @@ public class EstouDoido {
 
         int wage = 2000;
         System.out.println("test");
+        System.out.println("dddddd");
         int date = 2024;
         var name = "Eddie Stheven";
         var address = "Salvador";
