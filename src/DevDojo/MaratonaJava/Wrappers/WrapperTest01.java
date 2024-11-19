@@ -3,7 +3,7 @@ package DevDojo.MaratonaJava.Wrappers;
 public class WrapperTest01 {
     public static void main(String[] args) {
 
-    byte byteP = 1;
+    byte byteP = 3;
     short shortP = 1;
     int intP = 1;
     long longP = 10L;
