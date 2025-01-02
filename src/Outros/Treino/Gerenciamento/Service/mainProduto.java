@@ -1,7 +1,7 @@
-package Outros.Treino.ExecGPT.Gerenciamento.Service;
+package Outros.Treino.Gerenciamento.Service;
 
-import Outros.Treino.ExecGPT.Gerenciamento.Back.Estoque;
-import Outros.Treino.ExecGPT.Gerenciamento.Back.Produto;
+import Outros.Treino.Gerenciamento.Back.Estoque;
+import Outros.Treino.Gerenciamento.Back.Produto;
 
 import java.util.Scanner;
 
