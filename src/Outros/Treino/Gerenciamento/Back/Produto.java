@@ -1,4 +1,4 @@
-package Outros.Treino.ExecGPT.Gerenciamento.Back;
+package Outros.Treino.Gerenciamento.Back;
 
 public class Produto {
 
