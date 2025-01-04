@@ -6,7 +6,6 @@ public class Produto {
     public String name;
     public int quantidade;
 
-
     public Produto(int id, String name, int quantidade) {
         this.id = id;
         this.name = name;
@@ -21,8 +20,6 @@ public class Produto {
                 ", quantidade=" + quantidade +
                 '}';
     }
-
-
 
     public int getId() {
         return id;
