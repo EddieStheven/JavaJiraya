@@ -1,7 +1,14 @@
+<<<<<<<< HEAD:src/Outros/Treino/Gerenciamento/Service/mainProduto.java
+package Outros.Treino.Gerenciamento.Service;
+
+import Outros.Treino.Gerenciamento.Back.Estoque;
+import Outros.Treino.Gerenciamento.Back.Produto;
+========
 package Year2024.Outros.Treino.Gerenciamento.Service;
 
 import Year2024.Outros.Treino.Gerenciamento.Back.Estoque;
 import Year2024.Outros.Treino.Gerenciamento.Back.Produto;
+>>>>>>>> 4f8810912339f6e528d08493b54fe21b09eb37dd:src/Year2024/Outros/Treino/Gerenciamento/Service/mainProduto.java
 
 import java.util.Scanner;
 

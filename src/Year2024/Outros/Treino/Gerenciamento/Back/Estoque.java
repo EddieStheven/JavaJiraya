@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:src/Outros/Treino/Gerenciamento/Back/Estoque.java
+package Outros.Treino.Gerenciamento.Back;
+========
 package Year2024.Outros.Treino.Gerenciamento.Back;
+>>>>>>>> 4f8810912339f6e528d08493b54fe21b09eb37dd:src/Year2024/Outros/Treino/Gerenciamento/Back/Estoque.java
 
 import java.util.ArrayList;
 
